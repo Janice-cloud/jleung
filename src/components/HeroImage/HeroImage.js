@@ -10,6 +10,7 @@ function HeroImage() {
     <Image 
     className="image" 
     alt="Hero Image"
+    src="https://github.com/Janice-cloud/jleung/blob/master/src/images/background_image.jpeg?raw=true"
     ></Image>
   
   );
