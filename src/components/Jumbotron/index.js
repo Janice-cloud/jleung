@@ -7,7 +7,7 @@ const Jumbotron = ({ children }) => {
       style={{
         textAlign: "center"
       }}
-      className="jumbotron border"
+      className="jumbotron"
     >
       {children}
     </div>

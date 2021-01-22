@@ -1,6 +1,8 @@
 .jumbotron {
   background-color: rgb(5, 28, 47);
   background-repeat: no-repeat;
+  margin-bottom: 0rem;
+  border-radius: 0rem;
 }
 
 @media (max-width: 480px) {
@@ -11,7 +13,7 @@
 
 @media (min-width: 1288px) {
   .jumbotron {
-    padding: 18rem 2rem;
+    padding: 19rem 2rem;
     background-image: url("../../images/background_image.jpeg");
     background-position: center;
     width: auto;
