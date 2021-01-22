@@ -8,7 +8,7 @@ my skills from the ground up and how my concepts and designs have evolved!
 Having fun learning a new skills and debugging!
 
 ## My Portfolio! 
-[IAMJANICE](https://quizzical-wescoff-cf937c.netlify.app/)
+(https://quizzical-wescoff-cf937c.netlify.app/)
 
 ## Technologies
 * Bootstrap 4
@@ -17,3 +17,4 @@ Having fun learning a new skills and debugging!
 
 ## License	
 © Janice Leung 
+
