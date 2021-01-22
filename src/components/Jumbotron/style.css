@@ -1,4 +1,23 @@
 .jumbotron {
-  background-color: transparent;
-  background-image: url("../../images/background_image.jpeg");
+  background-color: rgb(5, 28, 47);
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 480px) {
+  .jumbotron {
+    padding-top: 18rem;
+  }
+}
+
+@media (min-width: 1288px) {
+  .jumbotron {
+    padding: 18rem 2rem;
+    background-image: url("../../images/background_image.jpeg");
+    background-position: center;
+    width: auto;
+  }
+}
+
+h1 {
+    text-align: center;
 }

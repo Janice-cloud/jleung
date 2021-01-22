@@ -1,4 +1,5 @@
 import React from "react";
+import "../Jumbotron/style.css";
 
 const Jumbotron = ({ children }) => {
   return (
@@ -6,7 +7,7 @@ const Jumbotron = ({ children }) => {
       style={{
         textAlign: "center"
       }}
-      className="jumbotron border border-success image"
+      className="jumbotron border"
     >
       {children}
     </div>
