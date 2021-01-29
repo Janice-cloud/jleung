@@ -12,9 +12,9 @@ function About() {
 
           I have used HTML, CSS JavaScript to produce websites and web apps.
 
-          I have been able to apply concepts learn through the bootcamp to build a fully functional MERN application.
+          I have been able to apply concepts learnt through the bootcamp to build a fully functional MERN application.
 
-          Through the bootcamp I have learn the skill to beable to research new concepts and apply them to any web application or website.
+          Through the bootcamp I have learn the skill to be able to research new concepts and apply them to any web application.
 
           Which has stimulated my thirst to continually apply my new skills within the industry.
         </p>
