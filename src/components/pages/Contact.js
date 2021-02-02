@@ -6,17 +6,15 @@ import Header from "../Header/header";
 
 function Contact() {
   return (
-    <div>
-      <Container>
-        <Header>
-          <h1>Contact Page</h1>
-        </Header>
-        <Jumbotron>
-          <div className="row top-border"></div>
-          <ContactForm></ContactForm>
-        </Jumbotron>
-      </Container>
-    </div>
+    <Container>
+      <Header>
+        <h1>Contact Page</h1>
+      </Header>
+      <Jumbotron>
+        <div className="row top-border"></div>
+        <ContactForm></ContactForm>
+      </Jumbotron>
+    </Container>
   );
 }
 
