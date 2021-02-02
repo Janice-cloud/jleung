@@ -2,20 +2,20 @@ import React from "react";
 import Jumbotron from "../Jumbotron/index";
 import Container from "../Container/container";
 import ContactForm from "../ContactForm/ContactForm";
-import Rows from "../Rows/Rows"
+import Header from "../Header/header";
 
 function Contact() {
   return (
     <div>
-      <Jumbotron>
       <Container>
-        <Rows></Rows>
-        <h1>Contact Page</h1>
-        <div className="row top-border"></div>
-        <ContactForm></ContactForm>
-  
+        <Header>
+          <h1>Contact Page</h1>
+        </Header>
+        <Jumbotron>
+          <div className="row top-border"></div>
+          <ContactForm></ContactForm>
+        </Jumbotron>
       </Container>
-      </Jumbotron>
     </div>
   );
 }

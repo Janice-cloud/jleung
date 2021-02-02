@@ -1,13 +1,16 @@
 import React from "react";
 import Jumbotron from "../Jumbotron/index";
 import Container from "../Container/container";
+import Header from "../Header/header";
 
 function About() {
   return (
     <div>
       <Container>
-        <Jumbotron>
+        <Header>
           <h1>My Story</h1>
+        </Header>
+        <Jumbotron>
           <p>
             Completed a 6 month Full Stack coding bootcamp with the University
             of Sydney and Trilogy Education Services. I have used HTML, CSS
