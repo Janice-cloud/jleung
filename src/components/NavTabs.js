@@ -4,10 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 function NavTabs() {
   return (
     <div>
-      <Navbar 
-      bg="dark" 
-      variant="dark"
-      >
+      <Navbar bg="dark" variant="dark">
         <Navbar.Brand>
           <Nav.Link href="/">Home</Nav.Link>
         </Navbar.Brand>

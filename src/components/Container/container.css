@@ -1,5 +1,10 @@
+.background {
+  background-color: black;
+  height: 39rem;
+  padding-top: 15px;
+}
 .innerContainer {
-    margin: auto;
+  margin: auto;
 }
 
 @media (max-width: 480px) {
@@ -13,9 +18,8 @@
     border-right: 3px solid #48ffd5;
     border-bottom: 5px solid #48ffd5;
     border-radius: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 2px;
+    padding-top: 0px;
+    margin-bottom: 15px;   
   }
 }
 
