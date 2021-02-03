@@ -7,7 +7,7 @@ function About() {
   return (
     <Container>
       <Header>
-        <h1>My Story</h1>
+        <h1 className="display-3 font-weight-bold text-Dark" >ABOUT</h1>
       </Header>
       <Jumbotron>
         <p>

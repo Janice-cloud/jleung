@@ -1,0 +1,7 @@
+@media (max-width: 480px) {
+  .header {
+    position: absolute;
+    text-align: center;
+    top: -83px;
+  }
+}

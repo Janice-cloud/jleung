@@ -8,7 +8,7 @@ function Contact() {
   return (
     <Container>
       <Header>
-        <h1>Contact Page</h1>
+        <h1 className="display-3 font-weight-bold text-Dark" >CONTACT</h1>
       </Header>
       <Jumbotron>
         <div className="row top-border"></div>

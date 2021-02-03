@@ -1,13 +1,13 @@
 import React from "react";
-import { Card, Button, Row, Col } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
+import "../ProjectCards/CardProject.css";
 
 function CardProject(props) {
   return (
     <div>
-    <Row style={{ marginTop: "3rem" }}>
-      <Col xs lg="2">
     {
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "18rem" }}
+      className="card">
         <Card.Img style={{height: "250px", width: "18rem"}} className="image" variant="top" src={props.card_image}></Card.Img>
         <Card.Body>
           <Card.Title>{props.card_title}</Card.Title>
@@ -19,8 +19,6 @@ function CardProject(props) {
         </Card.Body>
       </Card>
     }
-    </Col>
-    </Row>  
     </div>
   );
 }

@@ -1,0 +1,6 @@
+@media (max-width: 480px) {
+   .card {
+    position: absolute;
+    left: 35px;
+   }
+}

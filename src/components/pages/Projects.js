@@ -9,7 +9,7 @@ function Projects() {
   return (
     <Container>
       <Header>
-        <h1>Projects </h1>
+        <h1 className="display-3 font-weight-bold text-Dark" >WORK</h1>
       </Header>
       <Jumbotron>
         {Data.map((item) => (

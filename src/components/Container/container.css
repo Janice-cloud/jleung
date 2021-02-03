@@ -1,6 +1,11 @@
+.innerContainer {
+    margin: auto;
+}
+
 @media (max-width: 480px) {
   .innerContainer {
     background-color: black;
+    position: relative;
     width: 360px;
     height: 37rem;
     border-top: 80px solid #48ffd5;
@@ -8,8 +13,8 @@
     border-right: 3px solid #48ffd5;
     border-bottom: 5px solid #48ffd5;
     border-radius: 25px;
-    padding: 50px;
-    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 2px;
   }
 }
